@@ -29,25 +29,25 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
-          buttonText="About Us"
+          buttonText="Explore"
           buttonProps={{
             className: classes.navLink,
             color: "transparent",
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              JOIN Analytics
+            <Link to="/sign-up" className={classes.dropdownLink}>
+              JOIN Platform
             </Link>,
-            <a
-              href="https://github.com/bridge-patterns"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Github
-            </a>,
+            // <a
+            //   href="https://github.com/bridge-patterns"
+            //   target="_blank"
+            //   className={classes.dropdownLink}
+            // >
+            //   Github
+            // </a>,
             <Link to="/" className={classes.dropdownLink}>
-              Blog
+              About Us
             </Link>,
           ]}
         />
