@@ -1,19 +1,19 @@
-import React from "react";
+import React from 'react';
 // @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
-import DataUsageIcon from "@material-ui/icons/DataUsage";
-import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
+import Chat from '@material-ui/icons/Chat';
+import VerifiedUser from '@material-ui/icons/VerifiedUser';
+import Fingerprint from '@material-ui/icons/Fingerprint';
+import DataUsageIcon from '@material-ui/icons/DataUsage';
+import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 // core components
-import GridContainer from "../../Grid/GridContainer.js";
-import GridItem from "../../Grid/GridItem.js";
-import InfoArea from "../../InfoArea/InfoArea.js";
+import GridContainer from '../../Grid/GridContainer.js';
+import GridItem from '../../Grid/GridItem.js';
+import InfoArea from '../../InfoArea/InfoArea.js';
 
-import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
+import styles from 'assets/jss/material-kit-react/views/landingPageSections/productStyle.js';
 
 const useStyles = makeStyles(styles);
 
@@ -25,11 +25,8 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Products and Services</h2>
           <h5 className={classes.description}>
-            Poor business processes and poor investment decisions lead to huge
-            losses within companies. They experience poor results yet spend a
-            lot of money and resources in the process. Employees do not find
-            their work to be meaningful and this makes them less productive.
-            Many start to feel that the work they do is not impactful.
+            At Bridge, we create tools which assist businesses to derive insights from big data is
+            present for many organisations.
           </h5>
         </GridItem>
       </GridContainer>
