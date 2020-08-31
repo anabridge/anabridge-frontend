@@ -12,6 +12,7 @@ import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import GridContainer from '../../Grid/GridContainer.js';
 import GridItem from '../../Grid/GridItem.js';
 import InfoArea from '../../InfoArea/InfoArea.js';
+import Button from '../../CustomButtons/Button.js';
 
 import styles from 'assets/jss/material-kit-react/views/landingPageSections/productStyle.js';
 
@@ -43,6 +44,15 @@ export default function CareerSection() {
             process. Employees do not find their work to be meaningful and this makes them less
             productive. Many start to feel that the work they do is not impactful.
           </h5>
+          <Button
+            color="danger"
+            size="lg"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd9w8agoK7IkGDPzfjTKOHYQ_PuxH-JdySbXetoXzKVlE8YOA/viewform?usp=sf_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            APPLY
+          </Button>
         </GridItem>
       </GridContainer>
     </div>

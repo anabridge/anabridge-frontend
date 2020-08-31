@@ -39,6 +39,9 @@ export default function HeaderLinks(props) {
             <Link to="/sign-up" className={classes.dropdownLink}>
               JOIN Platform
             </Link>,
+            <Link to="/apply" className={classes.dropdownLink}>
+              Apply
+            </Link>,
             // <a
             //   href="https://github.com/bridge-patterns"
             //   target="_blank"
