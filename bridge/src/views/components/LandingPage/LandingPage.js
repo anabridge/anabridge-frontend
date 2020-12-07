@@ -49,14 +49,11 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>From Data to Insights.</h1>
-              <h4>
-                We specialize in various areas under data science, machine learning and artificial
-                intelligence to transform data into decisions that drive business growth.
-              </h4>
+              <h4>We help businesses thrive by deriving insights from data.</h4>
               <br />
               <Button color="danger" size="lg" href="" target="_blank" rel="noopener noreferrer">
                 {/* <i className="fas fa-play" /> */}
-                We Are Hiring
+                We Are Launching!
               </Button>
             </GridItem>
           </GridContainer>
@@ -64,7 +61,7 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <CareerSection />
+          {/* <CareerSection /> */}
           <ProductSection />
           {/* <TeamSection />
           <WorkSection /> */}

@@ -25,14 +25,13 @@ export default function ProductSection() {
         <GridItem xs={12} sm={12} md={8}>
           <h2 className={classes.title}>Products and Services</h2>
           <h5 className={classes.description}>
-            At Bridge, we create tools which assist businesses to derive insights from big data is
-            present for many organisations.
+            We create personalised tools which extract knowledge from data.
           </h5>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={6}>
             <InfoArea
               title="Crisis Text Line"
               description="Carry out sentiment analysis on SMS text messages"
@@ -41,7 +40,7 @@ export default function ProductSection() {
               vertical
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={6}>
             <InfoArea
               title="Analytics Engine"
               description="Enable analytics on the most complete and recent data."
@@ -50,7 +49,7 @@ export default function ProductSection() {
               vertical
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          {/* <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Brand Engine"
               description="Understand your market and your competitors better than 
@@ -59,7 +58,7 @@ export default function ProductSection() {
               iconColor="danger"
               vertical
             />
-          </GridItem>
+          </GridItem> */}
         </GridContainer>
       </div>
     </div>
