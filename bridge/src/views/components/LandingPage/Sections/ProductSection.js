@@ -34,7 +34,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={6}>
             <InfoArea
               title="Crisis Text Line"
-              description="Carry out sentiment analysis on SMS text messages"
+              description="Carry out sentiment analysis on text messages"
               icon={Chat}
               iconColor="info"
               vertical
