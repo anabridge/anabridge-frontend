@@ -51,9 +51,15 @@ export default function LandingPage(props) {
               <h1 className={classes.title}>From Data to Insights.</h1>
               <h4>We help businesses thrive by deriving insights from data.</h4>
               <br />
-              <Button color="danger" size="lg" href="" target="_blank" rel="noopener noreferrer">
+              <Button
+                color="danger"
+                size="lg"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScJ4jMzhQXLao170kXeILx7DoAIkHJT3kvz7vHtG0ILrVHDSQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {/* <i className="fas fa-play" /> */}
-                We Are Launching!
+                Register for the Launch Event
               </Button>
             </GridItem>
           </GridContainer>
