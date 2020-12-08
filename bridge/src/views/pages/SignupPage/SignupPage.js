@@ -45,10 +45,6 @@ export default function SignUpPage(props) {
       label: 'Analytics',
     },
     {
-      value: 'Brand Engine',
-      label: 'Brand Engine',
-    },
-    {
       value: 'Crisis Text Line',
       label: 'Crisis Text Line',
     },
@@ -86,7 +82,6 @@ export default function SignUpPage(props) {
                     <h4>JOIN BRIDGE</h4>
                   </CardHeader>
                   <CardBody>
-                    
                     <CustomInput
                       labelText="First Name..."
                       id="first"
