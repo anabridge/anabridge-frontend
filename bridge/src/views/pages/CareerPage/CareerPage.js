@@ -43,7 +43,7 @@ export default function CareerPage(props) {
     <div>
       <Header
         color="transparent"
-        brand="Bridge"
+        brand="Anabridge"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{

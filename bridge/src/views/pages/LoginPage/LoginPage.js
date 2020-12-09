@@ -1,34 +1,34 @@
-import React from "react";
+import React from 'react';
 // @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import Icon from "@material-ui/core/Icon";
+import { makeStyles } from '@material-ui/core/styles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import Email from "@material-ui/icons/Email";
-import People from "@material-ui/icons/People";
+import Email from '@material-ui/icons/Email';
+import People from '@material-ui/icons/People';
 // core components
-import Header from "views/components/Header/Header.js";
-import HeaderLinks from "views/components/Header/HeaderLinks.js";
-import Footer from "views/components/Footer/Footer.js";
-import GridContainer from "views/components/Grid/GridContainer.js";
-import GridItem from "views/components/Grid/GridItem.js";
-import Button from "views/components/CustomButtons/Button.js";
-import Card from "views/components/Card/Card.js";
-import CardBody from "views/components/Card/CardBody.js";
-import CardHeader from "views/components/Card/CardHeader.js";
-import CardFooter from "views/components/Card/CardFooter.js";
-import CustomInput from "views/components/CustomInput/CustomInput.js";
+import Header from 'views/components/Header/Header.js';
+import HeaderLinks from 'views/components/Header/HeaderLinks.js';
+import Footer from 'views/components/Footer/Footer.js';
+import GridContainer from 'views/components/Grid/GridContainer.js';
+import GridItem from 'views/components/Grid/GridItem.js';
+import Button from 'views/components/CustomButtons/Button.js';
+import Card from 'views/components/Card/Card.js';
+import CardBody from 'views/components/Card/CardBody.js';
+import CardHeader from 'views/components/Card/CardHeader.js';
+import CardFooter from 'views/components/Card/CardFooter.js';
+import CustomInput from 'views/components/CustomInput/CustomInput.js';
 
-import styles from "assets/jss/material-kit-react/views/loginPage.js";
+import styles from 'assets/jss/material-kit-react/views/loginPage.js';
 
-import image from "assets/img/bg7.jpg";
+import image from 'assets/img/bg7.jpg';
 
 const useStyles = makeStyles(styles);
 
 export default function LoginPage(props) {
-  const [cardAnimaton, setCardAnimation] = React.useState("cardHidden");
+  const [cardAnimaton, setCardAnimation] = React.useState('cardHidden');
   setTimeout(function () {
-    setCardAnimation("");
+    setCardAnimation('');
   }, 700);
   const classes = useStyles();
   const { ...rest } = props;
@@ -37,16 +37,16 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="Bridge Platform"
+        brand="Anabridge Platform"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
       <div
         className={classes.pageHeader}
         style={{
-          backgroundImage: "url(" + image + ")",
-          backgroundSize: "cover",
-          backgroundPosition: "top center",
+          backgroundImage: 'url(' + image + ')',
+          backgroundSize: 'cover',
+          backgroundPosition: 'top center',
         }}
       >
         <div className={classes.container}>
@@ -64,7 +64,7 @@ export default function LoginPage(props) {
                         color="transparent"
                         onClick={(e) => e.preventDefault()}
                       >
-                        <i className={"fab fa-twitter"} />
+                        <i className={'fab fa-twitter'} />
                       </Button>
                       <Button
                         justIcon
@@ -73,7 +73,7 @@ export default function LoginPage(props) {
                         color="transparent"
                         onClick={(e) => e.preventDefault()}
                       >
-                        <i className={"fab fa-facebook"} />
+                        <i className={'fab fa-facebook'} />
                       </Button>
                       <Button
                         justIcon
@@ -82,7 +82,7 @@ export default function LoginPage(props) {
                         color="transparent"
                         onClick={(e) => e.preventDefault()}
                       >
-                        <i className={"fab fa-google-plus-g"} />
+                        <i className={'fab fa-google-plus-g'} />
                       </Button>
                     </div>
                   </CardHeader>
@@ -95,7 +95,7 @@ export default function LoginPage(props) {
                         fullWidth: true,
                       }}
                       inputProps={{
-                        type: "text",
+                        type: 'text',
                         endAdornment: (
                           <InputAdornment position="end">
                             <People className={classes.inputIconsColor} />
@@ -110,7 +110,7 @@ export default function LoginPage(props) {
                         fullWidth: true,
                       }}
                       inputProps={{
-                        type: "email",
+                        type: 'email',
                         endAdornment: (
                           <InputAdornment position="end">
                             <Email className={classes.inputIconsColor} />
@@ -125,15 +125,13 @@ export default function LoginPage(props) {
                         fullWidth: true,
                       }}
                       inputProps={{
-                        type: "password",
+                        type: 'password',
                         endAdornment: (
                           <InputAdornment position="end">
-                            <Icon className={classes.inputIconsColor}>
-                              lock_outline
-                            </Icon>
+                            <Icon className={classes.inputIconsColor}>lock_outline</Icon>
                           </InputAdornment>
                         ),
-                        autoComplete: "off",
+                        autoComplete: 'off',
                       }}
                     />
                   </CardBody>

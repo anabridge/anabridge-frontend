@@ -61,7 +61,7 @@ export default function SignUpPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="Bridge Platform"
+        brand="Anabridge Platform"
         rightLinks={<HeaderLinks />}
         {...rest}
       />

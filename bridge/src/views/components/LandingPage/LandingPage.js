@@ -35,7 +35,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Bridge"
+        brand="Anabridge"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -59,7 +59,7 @@ export default function LandingPage(props) {
                 rel="noopener noreferrer"
               >
                 {/* <i className="fas fa-play" /> */}
-                Register for the Launch Event
+                Register here for the Launch Event
               </Button>
             </GridItem>
           </GridContainer>
