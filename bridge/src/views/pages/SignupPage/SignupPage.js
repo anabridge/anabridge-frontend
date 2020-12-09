@@ -79,7 +79,7 @@ export default function SignUpPage(props) {
               <Card className={classes[cardAnimaton]}>
                 <form className={classes.form}>
                   <CardHeader color="primary" className={classes.cardHeader}>
-                    <h4>JOIN BRIDGE</h4>
+                    <h4>JOIN ANABRIDGE</h4>
                   </CardHeader>
                   <CardBody>
                     <CustomInput
