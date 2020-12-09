@@ -33,7 +33,10 @@ export default function Footer(props) {
         <div className={classes.left}>
           <List className={classes.list}></List>
         </div>
-        <div className={classes.right}>Anabridge &copy; {1900 + new Date().getYear()}</div>
+        <div className={classes.right}>
+          <b>Email:</b> info@anabridge.com
+        </div>
+        {/* Anabridge &copy; {1900 + new Date().getYear()} */}
       </div>
     </footer>
   );
