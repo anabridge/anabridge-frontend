@@ -21,6 +21,7 @@ import styles from 'assets/jss/material-kit-react/views/landingPage.js';
 import ProductSection from './Sections/ProductSection.js';
 import TeamSection from './Sections/TeamSection.js';
 import WorkSection from './Sections/WorkSection.js';
+import CareerSection from './Sections/CareerSection';
 
 const dashboardRoutes = [];
 
@@ -34,7 +35,7 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Bridge"
+        brand="Anabridge"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -48,21 +49,17 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>From Data to Insights.</h1>
-              <h4>
-                We specialize in various practice areas under data science and
-                analytics to transform data into decisions that drive business
-                growth.
-              </h4>
+              <h4>We help businesses thrive by deriving insights from data.</h4>
               <br />
               <Button
                 color="danger"
                 size="lg"
-                href=""
+                href="https://docs.google.com/forms/d/e/1FAIpQLScJ4jMzhQXLao170kXeILx7DoAIkHJT3kvz7vHtG0ILrVHDSQ/viewform"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fas fa-play" />
-                Watch video
+                {/* <i className="fas fa-play" /> */}
+                Register here for the Launch Event
               </Button>
             </GridItem>
           </GridContainer>
@@ -70,9 +67,10 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
+          {/* <CareerSection /> */}
           <ProductSection />
-          <TeamSection />
-          <WorkSection />
+          {/* <TeamSection />
+          <WorkSection /> */}
         </div>
       </div>
       <Footer />

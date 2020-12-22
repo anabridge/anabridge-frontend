@@ -45,10 +45,6 @@ export default function SignUpPage(props) {
       label: 'Analytics',
     },
     {
-      value: 'Brand Engine',
-      label: 'Brand Engine',
-    },
-    {
       value: 'Crisis Text Line',
       label: 'Crisis Text Line',
     },
@@ -65,7 +61,7 @@ export default function SignUpPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="Bridge Platform"
+        brand="Anabridge Platform"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
@@ -83,10 +79,9 @@ export default function SignUpPage(props) {
               <Card className={classes[cardAnimaton]}>
                 <form className={classes.form}>
                   <CardHeader color="primary" className={classes.cardHeader}>
-                    <h4>JOIN BRIDGE</h4>
+                    <h4>JOIN ANABRIDGE</h4>
                   </CardHeader>
                   <CardBody>
-                    
                     <CustomInput
                       labelText="First Name..."
                       id="first"
