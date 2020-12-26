@@ -63,7 +63,7 @@ export default function HeaderLinks(props) {
         </Tooltip>*/}
         <Tooltip
           id="instagram-twitter"
-          title="Follow us on twitter"
+          title="Follow us on Twitter"
           placement={window.innerWidth > 959 ? 'top' : 'left'}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -80,7 +80,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
-          title="Follow us on facebook"
+          title="Follow us on Facebook"
           placement={window.innerWidth > 959 ? 'top' : 'left'}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -97,7 +97,7 @@ export default function HeaderLinks(props) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
-          title="Follow us on instagram"
+          title="Follow us on Instagram"
           placement={window.innerWidth > 959 ? 'top' : 'left'}
           classes={{ tooltip: classes.tooltip }}
         >
@@ -108,6 +108,24 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <i className={classes.socialIcons + ' fab fa-instagram'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="linkedin-tooltip"
+          title="Follow us on Linkedin"
+          placement={window.innerWidth > 959 ? 'top' : 'left'}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.linkedin.com/company/anabridge"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + ' fab fa-linkedin'} />
           </Button>
         </Tooltip>
       </ListItem>
