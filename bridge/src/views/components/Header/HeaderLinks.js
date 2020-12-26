@@ -26,7 +26,7 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
+      {/* <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
           buttonText="Explore"
@@ -54,7 +54,7 @@ export default function HeaderLinks(props) {
             </Link>,
           ]}
         />
-      </ListItem>
+      </ListItem> */}
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
@@ -68,7 +68,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/bridge_patterns"
+            href="https://twitter.com/anabridgecom"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -86,7 +86,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/patterns.bridge/"
+            href="https://www.facebook.com/anabridgecom/"
             target="_blank"
             className={classes.navLink}
           >
@@ -101,7 +101,12 @@ export default function HeaderLinks(props) {
           placement={window.innerWidth > 959 ? 'top' : 'left'}
           classes={{ tooltip: classes.tooltip }}
         >
-          <Button color="transparent" href="" target="_blank" className={classes.navLink}>
+          <Button
+            color="transparent"
+            href="https://www.instagram.com/anabridgecom/"
+            target="_blank"
+            className={classes.navLink}
+          >
             <i className={classes.socialIcons + ' fab fa-instagram'} />
           </Button>
         </Tooltip>
