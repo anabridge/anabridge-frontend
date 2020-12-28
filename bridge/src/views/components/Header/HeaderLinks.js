@@ -129,6 +129,42 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="github-tooltip"
+          title="Follow us on Github"
+          placement={window.innerWidth > 959 ? 'top' : 'left'}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://github.com/anabridge"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + ' fab fa-github'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="youtube-tooltip"
+          title="Follow us on Youtube"
+          placement={window.innerWidth > 959 ? 'top' : 'left'}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.youtube.com/channel/UCPpgv6RrNEnMhFjGDgJj73A"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + ' fab fa-youtube'} />
+          </Button>
+        </Tooltip>
+      </ListItem>
     </List>
   );
 }
