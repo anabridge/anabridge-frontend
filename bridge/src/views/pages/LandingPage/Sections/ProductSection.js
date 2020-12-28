@@ -9,9 +9,9 @@ import Fingerprint from '@material-ui/icons/Fingerprint';
 import DataUsageIcon from '@material-ui/icons/DataUsage';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 // core components
-import GridContainer from '../../Grid/GridContainer.js';
-import GridItem from '../../Grid/GridItem.js';
-import InfoArea from '../../InfoArea/InfoArea.js';
+import GridContainer from 'views/components/Grid/GridContainer.js';
+import GridItem from 'views/components/Grid/GridItem.js';
+import InfoArea from 'views/components/InfoArea/InfoArea.js';
 
 import styles from 'assets/jss/material-kit-react/views/landingPageSections/productStyle.js';
 

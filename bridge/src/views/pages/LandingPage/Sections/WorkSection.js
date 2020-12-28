@@ -1,16 +1,16 @@
-import React from "react";
+import React from 'react';
 // @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 // @material-ui/icons
 
 // core components
-import GridContainer from "../../Grid/GridContainer.js";
-import GridItem from "../../Grid/GridItem.js";
-import CustomInput from "../../CustomInput/CustomInput.js";
-import Button from "../../CustomButtons/Button.js";
+import GridContainer from 'views/components/Grid/GridContainer.js';
+import GridItem from 'views/components/Grid/GridItem.js';
+import CustomInput from 'views/components/CustomInput/CustomInput.js';
+import Button from 'views/components/CustomButtons/Button.js';
 
-import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
+import styles from 'assets/jss/material-kit-react/views/landingPageSections/workStyle.js';
 
 const useStyles = makeStyles(styles);
 
@@ -22,8 +22,8 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Work with us</h2>
           <h4 className={classes.description}>
-            We are always looking for partnerships, please contact us. We will
-            get back to you in a couple of hours.
+            We are always looking for partnerships, please contact us. We will get back to you in a
+            couple of hours.
           </h4>
           <form>
             <GridContainer>

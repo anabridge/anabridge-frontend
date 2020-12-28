@@ -7,7 +7,7 @@ import CareerPage from './views/pages/CareerPage/CareerPage.js';
 
 import 'assets/scss/material-kit-react.scss?v=1.8.0';
 
-import LandingPage from './views/components/LandingPage/LandingPage';
+import LandingPage from './views/pages/LandingPage/LandingPage';
 
 var hist = createBrowserHistory();
 
