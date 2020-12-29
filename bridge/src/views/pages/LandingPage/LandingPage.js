@@ -64,7 +64,7 @@ export default function LandingPage(props) {
                 rel="noopener noreferrer"
               >
                 {/* <i className="fas fa-play" /> */}
-                Apply for open position
+                Apply for the open position
               </Button>
             </GridItem>
           </GridContainer>
