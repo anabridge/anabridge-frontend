@@ -59,12 +59,12 @@ export default function LandingPage(props) {
               <Button
                 color="facebook"
                 size="lg"
-                // href="https://docs.google.com/forms/d/e/1FAIpQLScJ4jMzhQXLao170kXeILx7DoAIkHJT3kvz7vHtG0ILrVHDSQ/viewform"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeSSVH9icETjpE8JwujVm_JE2nAPfDJGJNH54gr83xUj3ws8g/viewform?usp=sf_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {/* <i className="fas fa-play" /> */}
-                Join Our Platform
+                Apply for open position
               </Button>
             </GridItem>
           </GridContainer>
